@@ -13,7 +13,7 @@ const Footer = () => {
       <Container className="">
         <Row className="d-flex justify-content-between align-items-center">
           <Col sm="6" className="d-flex align-items-center ">
-            <div className="footer-shoot">Terms and Conditions</div>
+            <div className="footer-shoot">About Us</div>
             <div className="footer-shoot mx-3">Privacy Policy</div>
             <div className="footer-shoot mx-2">Contact US </div>
           </Col>

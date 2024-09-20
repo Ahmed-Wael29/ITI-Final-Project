@@ -20,10 +20,9 @@ const ProductDetails = () => {
     if (IsLoggedIn) {
       dispatch(addToCart(product));
     } else {
-      navigate("#/Login");
+      navigate("/Login");
     }
   };
-
   // Check if product is already in cart
   const isProductInCart = cart.some((cartItem) => cartItem.id === product.id);
 
@@ -95,7 +94,7 @@ const ProductDetails = () => {
                 </Button>
                 <Button
                   style={{ backgroundColor: "black", borderColor: "black" }}
-                  onClick={() => navigate("/cart")}
+                  onClick={() => navigate("#/cart")}
                 >
                   Go To Cart <FontAwesomeIcon icon={faTruckArrowRight} />  
                 </Button>

@@ -7,7 +7,6 @@ import { Container, Row } from "react-bootstrap";
 const BrandContainer = () => {
   return (
     <Container>
-      <div className="admin-content-text mt-2 ">All Brands</div>
       <Row className="my-1 d-flex justify-content-between">
         <BrandCard img={brand1} />
         <BrandCard img={brand2} />
